@@ -7,57 +7,127 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 
+/*=====Welcome Section=====*/
 
-.header-content{
+.welcome-section{
+    background-image: url(../../images/top-banner.png);
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }
-.welcome-content, .admin-img{
+.welcome-content, .dream-content{
+    width: 50%;
+}
+.section-img{
     width: 40%;
 }
-
-.admin-img > img{
-    width: 100%;
-}
-.welcome-content{
-    background-image: url("../../images/top-banner.png");
-    background-repeat: no-repeat;
-}
-::selection{
-    background-color: transparent;
-    color: rgb(124, 124, 124);
-}
-.welcome-content > .title{
-    font-size: 30px;
-    color: rgb(43, 43, 43);
-    line-height: 100px;
-    margin-bottom: 50px;
-    margin-left: 90px;
-    margin-top: 30px;
-}
-.title > h1 > span{
+.welcome-content > h1{
+    font-size: 60px;
     font-weight: 600;
-    color: rgb(250, 133, 0);
+    color: rgb(49, 49, 49);
+    padding: 50px 0;
 }
-.title-content{
-    margin-left: 90px;
+.welcome-content > h1 >span{
+    
+    color: rgb(252, 67, 61);
 }
-.title-content > h3{
-    font-size: 25px;
-    margin-bottom: 25px;
+.section-content > h3{
+    font-size: 20px;
+    color: rgb(49, 49, 49);
 }
-.title-content > p{
-    color: rgb(71, 71, 71);
+.section-content > p{
     font-size: 16px;
-    line-height: 25px;
-    margin-bottom: 25px;
+    line-height: 30px;
+    color: rgb(70, 70, 70);
+    margin: 25px 0;
 }
-.title-content > a.btn{
+a.btn{
     text-decoration: none;
-    background-image: linear-gradient(to right, rgb(253, 36, 72), rgb(250, 133, 0));
-    padding: 10px 35px;
-    color: rgb(255, 255, 255);
-    font-size: 17px;
+    background-image: linear-gradient(to left, rgb(252, 67, 61), rgb(255, 166, 0));
+    padding: 15px 35px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.section-img > img{
+    width: 100%;
+    padding-top: 50px;
+}
+.dream-section{
+    padding: 100px 0;
+}
+.dream-content > h2{
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 50px;
+    color: rgb(49, 49, 49);
+}
+.dream-section{
+    background-image: url(../../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.experienc_1, .experienc_2{
+    width: 45%;
+    height: 350px;
+    padding: 30px 20px;
+
+}
+.experienc_1 > h2, .experienc_2 > h2{
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 30px;
+    color: rgb(70, 70, 70);
+}
+.experienc-content > h3{
+    font-size: 18px;
+    color: rgb(252, 67, 61);
+    padding-bottom: 20px;
+}
+
+.experienc-content > p{
+    color: rgb(70, 70, 70);
+    line-height: 25px;
+ 
+}
+
+.experiences-section > h1.title{
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(58, 58, 58);
+    margin-bottom: 30px;
+}
+
+.experiences-section{
+    background-image: url(../../images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+   
+}
+
+.experienc_1, .experienc_2{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+
+.experienc_1{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(252, 67, 61), rgb(255, 166, 0));
+    border-image-slice: 1;
+}
+.experienc_2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 242), rgb(0, 183, 255));
+    border-image-slice: 1;
+}
+footer{
+    margin: 100px 0 30px 0;
     text-align: center;
-    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(70, 70, 70);
 }
